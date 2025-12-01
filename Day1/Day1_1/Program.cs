@@ -3,9 +3,9 @@ using System;
 
 
 string filePath = "input.txt"; //correct password for this input is 1102
-//string filePath = "test.txt"; //correct password for this input is 1102
+//string filePath = "test.txt"; //correct password for this input is 3
 int password = 0;
-int dialPosition = 50; //starting position is 3
+int dialPosition = 50; //starting position is 50
 
 if (File.Exists(filePath))
 {
