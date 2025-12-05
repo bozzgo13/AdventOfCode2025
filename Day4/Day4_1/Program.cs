@@ -4,7 +4,7 @@ internal class Program
     private static void Main(string[] args)
     {
 
-        string inputFileName = "input.txt"; // number of rols accessed: 12051
+        string inputFileName = "input.txt"; // number of rols accessed: 1397
         //string inputFileName = "test.txt"; // number of rols accessed: 13
         var rows = File.ReadAllLines(inputFileName);
        
